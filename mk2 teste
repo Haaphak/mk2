@@ -1,0 +1,37 @@
+![Moai.](https://us-tuna-sounds-images.voicemod.net/26d0b52f-7b5c-4e30-a14c-02c1a392a565-1696207203921.jpg)
+
+
+## Moai [](https://emojipedia.org/pt/moai) 🗿
+```mermaid
+flowchart TD
+Teste1 --Teste 2--> Reiniciar
+Teste1 --Teste3--> Sair_do_teste1
+Reiniciar --> Teste1
+Sair_do_teste1 -->Menu{Menu}
+Menu --> Opções( Opções )
+Menu --> C
+Opções --> Configurações 
+Configurações --> R{Reboot}
+R -->Teste1 
+C{Criar} --> O(Opções de criação)
+O --Construir--> SC{Sandbox com construções}
+
+O --Destruir--> SD{Sandbox sem construções}
+SD--> Menu
+
+SC--> Ambiente
+Ambiente --colocar Vida--> AC(Ambiente_com_vida)
+Ambiente --permanecer sem vida--> AS(Ambiente_sem_vida)
+AS--> F([fim])
+SSV-->PF[Proliferação_e_evolução]
+PF[Proliferação_e_evolução]-->DVS{Diversidade}
+AC-->SSV(Surgimento_de_seres_vivos)
+DVS--True-->RSP(igualdade)
+DVS--False-->DSRP(Desigualdade)
+DSRP-->RV[Revolução]
+RV-->GV[Guerras]
+GV-->EM{Extinção em massa}
+EM-->F2([Fim])
+
+
+```
